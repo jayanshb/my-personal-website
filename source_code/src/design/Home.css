@@ -41,7 +41,7 @@
   padding-right: 20px;
   -webkit-animation-name: appear 10s;
   animation-name: appear;
-  animation-duration: 10s;
+  animation-duration: 2s;
 }
 
 .Bhartiya {
@@ -53,7 +53,7 @@
   margin-bottom: 20px;
   -webkit-animation-name: appear 6s;
   animation-name: appear;
-  animation-duration: 6s;
+  animation-duration: 2s;
 }
 
 .graySidebar {
@@ -162,10 +162,9 @@ ul li {
   text-decoration: none;
 }
 
-.home-auto .whiteCarryover{
+.home-auto .whiteCarryover {
   height: auto !important;
 }
-
 
 @media (max-width: 1200px) {
   .graySidebar {
@@ -180,13 +179,12 @@ ul li {
   }
 }
 
-
 @media (max-width: 480px) {
-  .graySidebar{
+  .graySidebar {
     min-height: auto;
     padding-bottom: 20px;
   }
-  .graySidebar.justify-content-between{
+  .graySidebar.justify-content-between {
     justify-content: normal !important;
   }
   .navigation {
