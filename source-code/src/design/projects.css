@@ -1,0 +1,61 @@
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-ms-keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#qlearning {
+  -webkit-animation-name: appear 1s;
+  animation-name: appear;
+  animation-duration: 1s;
+}
+
+#webdev {
+  -webkit-animation-name: appear 3s;
+  animation-name: appear;
+  animation-duration: 3s;
+}
+
+#deeplearning {
+  -webkit-animation-name: appear 5s;
+  animation-name: appear;
+  animation-duration: 5s;
+}
+
+#datascience {
+  -webkit-animation-name: appear 7s;
+  animation-name: appear;
+  animation-duration: 7s;
+}
+
+.card-deck .card {
+  margin: 0 !important;
+}
